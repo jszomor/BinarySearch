@@ -10,10 +10,11 @@ namespace BinarySearch
 			var r = new Random();
 			for (int i = 0; i < inputArray.Length; i++)
 			{
-				inputArray[i] = r.Next(0, 2000);
+				//inputArray[i] = r.Next(0, 2000);
+				inputArray[i] = i;
 			}
 			Array.Sort(inputArray);
-			int key = 2;
+			int key = 123;
 
 			int min = 0;
 			int max = inputArray.Length - 1;
