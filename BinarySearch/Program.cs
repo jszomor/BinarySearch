@@ -6,13 +6,13 @@ namespace BinarySearch
 	{
 		static void Main(string[] args)
 		{
-			int[] inputArray = new int[] {1,2,3,4,5,6,7,8,9,10 };
-			//var r = new Random();
-			//for (int i = 0; i < inputArray.Length; i++)
-			//{
-			//	inputArray[i] = r.Next(0, 2000);
-			//}
-			//Array.Sort(inputArray);
+			int[] inputArray = new int[1000];
+			var r = new Random();
+			for (int i = 0; i < inputArray.Length; i++)
+			{
+				inputArray[i] = r.Next(0, 2000);
+			}
+			Array.Sort(inputArray);
 			int key = 2;
 
 			int min = 0;
